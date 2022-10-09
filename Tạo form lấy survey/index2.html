@@ -62,15 +62,70 @@
     <input type="radio"> Weekly <br>
     <input type="radio"> Monthly <br>
 <br>
-<h2> What would you pay for the new product?</h2>
-
-
-<div style="display:flex;"  >
-    <span class="symbol"> $ </span>
-    <span style="display:flex;">
-        <input type="text" name="dollars" id="dollars" value="10"  > <br>Dollars
-        <input type="text" name="cents" id="Cents" value="10"> <br>Cents
-    </span>
+<div>
+    <h2>What would you pay for the new product?</h2>
+    <span>$</span><input type="number" class="box3"><span>.</span><input type="number" class="box4">
+</div>
+<div>
+    <h2>What features would you like to see in the new product.</h2>
+    <textarea name="features" id="f1" cols="30" rows="10" class="box5"></textarea>
+</div>
+<div>
+    <h2>Please rate your level of agreement with the following statements</h2>
+    <table>
+        <tr class="hang1">
+            <th class="cot1"></th>
+            <th class="cot2">Strongly Disagree</th>
+            <th class="cot2">Disagree</th>
+            <th class="cot2">Agree</th>
+            <th class="cot2">Strongly Agree</th>
+        </tr>
+        <tr class="hang2">
+            <th class="cot1">Our products are priced fairly.</th>
+            <th class="cot2">
+                <input type="radio" name="priced"><br>1
+            </th>
+            <th class="cot2">
+                <input type="radio" name="priced"><br>2
+            </th>
+            <th class="cot2">
+                <input type="radio" name="priced"><br>3
+            </th>
+            <th class="cot2">
+                <input type="radio" name="priced"><br>4
+            </th>
+        </tr>
+        <tr class="hang3">
+            <th class="cot1">Our products are high quality.</th>
+            <th class="cot2">
+                <input type="radio" name="quality"><br>1
+            </th>
+            <th class="cot2">
+                <input type="radio" name="quality"><br>2
+            </th>
+            <th class="cot2">
+                <input type="radio" name="quality"><br>3
+            </th>
+            <th class="cot2">
+                <input type="radio" name="quality"><br>4
+            </th>
+        </tr>
+        <tr class="hang4">
+            <th class="cot1">You would recommend our product to a friend or coworker.</th>
+            <th class="cot2">
+                <input type="radio" name="recom"><br>1
+            </th>
+            <th class="cot2">
+                <input type="radio" name="recom"><br>2
+            </th>
+            <th class="cot2">
+                <input type="radio" name="recom"><br>3
+            </th>
+            <th class="cot2">
+                <input type="radio" name="recom"><br>4
+            </th>
+        </tr>
+    </table>
 </div>
 
 
