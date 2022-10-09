@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Market Research Survey</title>
+    <style>
+        h2 {
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<article>
+    <header>
+    <h1>
+    Market Research Survey
+</h1>
+        <p>Please take a few moments to complete this satisfaction survey.</p>
+    </header>
+</article>
+<hr>
+<br>
+    <h2>
+    What is your age range?
+    </h2>
+    <select id="age" style="width:300px" >
+        <option value="18-24">18-24 </option>
+        <option value="25-34">25-34 </option>
+        <option value="35-50">35-50 </option>
+        <option value="50+">50+ </option>
+    </select>
+<h2>
+    Whats is your yearly income range?
+</h2>
+<select id="money" style="width:300px" >
+    <option value="$0 - $25,00">$0 - $25,00 </option>
+    <option value="$25,001 - $50,000">$25,001 - $50,000 </option>
+    <option value="$50,001 - $100,000">$50,001 - $100,000 </option>
+    <option value="$100,000+">$100,000+ </option>
+</select>
+<br>
+
+<h2>Gender</h2>
+    <input type="radio" name="rd">Male <br>
+    <input type="radio" name="rd">Female <br>
+    <input type="radio" name="rd">Nonbinary <br>
+    <input type="radio" name="rd">Obther <br>
+    <input type="text" id="fname",>
+<p><i>
+    Maximum of 250 characters.    Currently Used: 0 characters.
+    </i></p>
+
+<h2>		Which of the following products have your purchased in the last 2 months. Please check all that apply.
+</h2>
+    <input type="checkbox"> Product 1 <br>
+    <input type="checkbox"> Product 2 <br>
+    <input type="checkbox"> Product 3 <br>
+<br>
+<h2> How often would tou use our nre product?  </h2>
+    <input type="radio"> Daily <br>
+    <input type="radio"> Weekly <br>
+    <input type="radio"> Monthly <br>
+<br>
+<h2> What would you pay for the new product?</h2>
+
+
+<div style="display:flex;"  >
+    <span class="symbol"> $ </span>
+    <span style="display:flex;">
+        <input type="text" name="dollars" id="dollars" value="10"  > <br>Dollars
+        <input type="text" name="cents" id="Cents" value="10"> <br>Cents
+    </span>
+</div>
+
+
+</body>
+</html>
