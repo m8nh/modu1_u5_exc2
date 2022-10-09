@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    form {
+        width: 800px;
+        background-color: #ffffa9;
+    }
+    fieldset {
+        border: none;
+    }
+    table {
+
+        border-collapse: collapse;
+        width: 770px;
+    }
+    th {
+        background-color: #a8f3fc;
+        color: blue;
+        font-size: 30px;
+        text-align: left;
+        height: 40px;
+    }
+    p {
+        color: blue;
+        font-size: 24px;
+    }
+    .box1 {
+        width: 400px;
+        height: 30px;
+    }
+    .box2 {
+        width: 200px;
+        height: 30px;
+    }
+    span {
+        font-size: 24px;
+    }
+    .box3 {
+        width: 400px;
+    }
+    .box4 {
+        width: 200px;
+        height: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .box5, .box6 {
+        width: 250px;
+        height: 30px;
+    }
+    .box7 {
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .box8 {
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+    }
+    .cot1 {
+        width: 150px;
+    }
+    .cot2 {
+        width: 650px;
+    }
+</style>
+<body>
+<form action="">
+    <fieldset>
+        <table>
+            <tr>
+                <th colspan="2">ĐĂNG KÝ HỌC VIÊN</th>
+            </tr>
+            <tr>
+                <td class="cot1"><p>Họ và tên</p></td>
+                <td class="cot2"><input type="text" name="name" class="box1"></td>
+            </tr>
+            <tr>
+                <td class="cot1"><p>Ngày sinh</p></td>
+                <td class="cot2"><input type="text" name="date" class="box2"></td>
+            </tr>
+            <tr>
+                <td class="cot1"><p>Giới tính</p></td>
+                <td class="cot2">
+                    <input type="radio" name="gender"><span>Nam</span>
+                    <input type="radio" name="gender"><span>Nữ</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="cot1"><p>Địa chỉ</p></td>
+                <td class="cot2"><textarea name="text" id="text1" cols="30" rows="10" class="box3"></textarea></td>
+            </tr>
+            <tr>
+                <td class="cot1"><p>Lớp</p></td>
+                <td class="cot2">
+                    <select name="class" id="class1" class="box4">
+                        <option value="Chonlop">- Chọn lớp -</option>
+                        <option value="C05">C05</option>
+                        <option value="C06">C06</option>
+                        <option value="C07">C07</option>
+                        <option value="C08">C08</option>
+                        <option value="C09">C09</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="cot1"><p>Email</p></td>
+                <td class="cot2"><input type="email" name="email" class="box5"></td>
+            </tr>
+            <tr>
+                <td class="cot1"><p>Điện thoại</p></td>
+                <td><input type="number" name="phone" class="box6"></td>
+            </tr>
+            <tr>
+                <td class="cot1"></td>
+                <td class="cot2">
+                    <input type="submit" name="submit" value="Đăng ký" class="box7">
+                    <input type="reset" name="reset" value="Nhập lại" class="box8">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
